@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        
+        height: 500px;
+        width: 600px;
+        
+        
+        
+    }
+    .box{
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+        background-color:gray;
+        animation-name: hemant;
+        animation-duration: 3s;
+        animation-iteration-count: 3;
+        margin: 10px;
+        border-radius: 50%
+    }
+    @keyframes hemant{
+        0%{
+            transform: rotate(0);
+        }
+       25% {
+            transform: translate(500px);
+        }
+    }
+    
+
+    
+button{
+
+    height: 40px;
+    width: 150px;
+    background-color: brown;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    border-radius: 20%
+    
+}
+button:hover{
+
+background-color: blueviolet;
+text-transform:lowercase;
+
+}
+
+.but{
+    height: 40px;
+    width: 130px;
+    background-color:yellow;
+    text-transform: capitalize;
+    color: cadetblue;
+    font-size: x-large;
+    /* border-radius: 50% */
+}
+.but:hover{
+    background-color: black;
+
+}
+.b{
+    height: 40px;
+    width: 130px;
+    background-color: aqua;
+    text-transform: lowercase;
+    color: black;border-radius: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-size: large;
+}
+.b:hover{
+    background-color: beige;
+    text-transform: uppercase;
+}
+label{
+    height: 40px;
+    width: 130px;
+    background-color: blueviolet;
+    color: chartreuse;
+    text-transform: lowercase;
+    font-size: large;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+label:hover{
+    background-color: cornflowerblue;
+
+}
+
+
+
+
+
+
+</style>
+<body>
+
+
+    <div class="main">
+        <div class="box"></div>
+        <button>Submit Page</button>
+        <button class="but">Home Page</button>
+        <p class="b">About us</p>
+            
+    </div>
+
+    <div> 
+        <label>gallary</label>
+
+
+
+    </div>
+
+    
+       
+   
+    
+
+    
+</body>
+</html>
